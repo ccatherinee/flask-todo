@@ -81,7 +81,3 @@ def delete(todo_id):
             break
     # redirect user to homepage, (full list of todos)
     return redirect(url_for("home"))
-
-# run app
-if __name__ == "__main__":
-    app.run(debug=True)
